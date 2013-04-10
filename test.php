@@ -2,7 +2,7 @@
 
 echo (exec('whoami'));
 
-`git pull`; 
+exec('git pull'); 
 
 $file = fopen( 'testfile.txt', 'w+' );
 fwrite($file, 'hey<br/>');
